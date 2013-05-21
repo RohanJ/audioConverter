@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B7FA3D15671B0B007F3BAD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7FA3C15671B0B007F3BAD /* CoreFoundation.framework */; };
+		22B7FA4015671B0B007F3BAD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FA3F15671B0B007F3BAD /* main.c */; };
+		22B7FA4215671B0B007F3BAD /* audioConverter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22B7FA4115671B0B007F3BAD /* audioConverter.1 */; };
+		22B7FA4915671B49007F3BAD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B7FA4815671B49007F3BAD /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22B7FA3615671B0B007F3BAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				22B7FA4215671B0B007F3BAD /* audioConverter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22B7FA3815671B0B007F3BAD /* audioConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audioConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B7FA3C15671B0B007F3BAD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		22B7FA3F15671B0B007F3BAD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		22B7FA4115671B0B007F3BAD /* audioConverter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = audioConverter.1; sourceTree = "<group>"; };
+		22B7FA4815671B49007F3BAD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B7FA3515671B0B007F3BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7FA4915671B49007F3BAD /* AudioToolbox.framework in Frameworks */,
+				22B7FA3D15671B0B007F3BAD /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B7FA2D15671B0A007F3BAD = {
+			isa = PBXGroup;
+			children = (
+				22B7FA4815671B49007F3BAD /* AudioToolbox.framework */,
+				22B7FA3E15671B0B007F3BAD /* audioConverter */,
+				22B7FA3B15671B0B007F3BAD /* Frameworks */,
+				22B7FA3915671B0B007F3BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B7FA3915671B0B007F3BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B7FA3815671B0B007F3BAD /* audioConverter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B7FA3B15671B0B007F3BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B7FA3C15671B0B007F3BAD /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B7FA3E15671B0B007F3BAD /* audioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				22B7FA3F15671B0B007F3BAD /* main.c */,
+				22B7FA4115671B0B007F3BAD /* audioConverter.1 */,
+			);
+			path = audioConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B7FA3715671B0B007F3BAD /* audioConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B7FA4515671B0B007F3BAD /* Build configuration list for PBXNativeTarget "audioConverter" */;
+			buildPhases = (
+				22B7FA3415671B0B007F3BAD /* Sources */,
+				22B7FA3515671B0B007F3BAD /* Frameworks */,
+				22B7FA3615671B0B007F3BAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioConverter;
+			productName = audioConverter;
+			productReference = 22B7FA3815671B0B007F3BAD /* audioConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B7FA2F15671B0B007F3BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22B7FA3215671B0B007F3BAD /* Build configuration list for PBXProject "audioConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22B7FA2D15671B0A007F3BAD;
+			productRefGroup = 22B7FA3915671B0B007F3BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B7FA3715671B0B007F3BAD /* audioConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B7FA3415671B0B007F3BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7FA4015671B0B007F3BAD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22B7FA4315671B0B007F3BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22B7FA4415671B0B007F3BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22B7FA4615671B0B007F3BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22B7FA4715671B0B007F3BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B7FA3215671B0B007F3BAD /* Build configuration list for PBXProject "audioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B7FA4315671B0B007F3BAD /* Debug */,
+				22B7FA4415671B0B007F3BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B7FA4515671B0B007F3BAD /* Build configuration list for PBXNativeTarget "audioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B7FA4615671B0B007F3BAD /* Debug */,
+				22B7FA4715671B0B007F3BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B7FA2F15671B0B007F3BAD /* Project object */;
+}
